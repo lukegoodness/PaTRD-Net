@@ -1,0 +1,49 @@
+# datasets (public benchmarks, downloaded separately — see README)
+dataset/
+data/
+results/
+outputs/
+report/
+preds_cache/
+predictions/
+*.csv
+*.csv.gz
+*.tsv
+*.npy
+*.npz
+*.parquet
+*.pkl
+
+# runtime artefacts
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.out
+*.pid
+logs/
+nohup.out
+*.log
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
